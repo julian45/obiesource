@@ -36,9 +36,7 @@ At the top of this page is a "fork" button. Click this button to make a personal
    ```
 6. Make a new branch (optional):
    - enter the following commands:
-     ```sh
-     git checkout -b new-member
-     ```
+     `sh git checkout -b new-member `
 
 ## Step 4: Make changes:
 
@@ -68,8 +66,13 @@ At the top of this page is a "fork" button. Click this button to make a personal
 1. In your terminal, navigate to .../obiesource.github.io/
 2. Run the following commands:
    ```sh
+   <<<<<<< HEAD
    git add members/{your-last-name}.json memberslist.json
    git commit -m "Adding myself to the members list"
+   =======
+   git add members/{your-last-name}.json memberslist.json
+   git commit -m "Adding myself to the members list"
+   >>>>>>> main
    git push
    ```
 
