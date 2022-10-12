@@ -36,11 +36,7 @@ At the top of this page is a "fork" button. Click this button to make a personal
    ```
 6. Make a new branch (optional):
    - enter the following commands:
-     <<<<<<< HEAD
      `sh git checkout -b new-member `
-     =======
-     `sh git checkout -b new-member `
-     > > > > > > > main
 
 ## Step 4: Make changes:
 
